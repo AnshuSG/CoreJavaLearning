@@ -13,6 +13,7 @@ public class lab141 {
         System.out.println(p.name);
 
         Person p2= new Person();
+        p2.eat();
         p2.name = "Ganti";
         System.out.println(p2.name);
 
