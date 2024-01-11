@@ -1,5 +1,7 @@
 package src.oops_6jan.oops;
 
+
+
 public class Person {
     //Atrributes
  String name;
@@ -9,11 +11,20 @@ public class Person {
   String Gender;
   String Email;
 
-  //Behaviour
+   float salary;
+    public void Person2(String name1, long phno)
+    {
+     print();
+    }
+    //Behaviour
 
     void Sleep()
     {
         System.out.println("I want to sleep");
+    }
+    void print()
+    {
+        System.out.println("I am printed");
     }
     void eat()
     {

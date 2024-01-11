@@ -1,6 +1,9 @@
 package src.oops_6jan.oops;
 
 public class lab141 {
+    public lab141() {
+    }
+
     public static void main(String[] args) {
         // Person - class blueprint
         // p - ref variable
@@ -16,6 +19,9 @@ public class lab141 {
         p2.eat();
         p2.name = "Ganti";
         System.out.println(p2.name);
+
+
+
 
         new Person();
 Person p3 = new Person();
