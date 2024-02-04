@@ -7,6 +7,12 @@ public class lab201 {
         temp("sg");
         temp(123);
         temp(123.8);
+
+
+        Integer result = max(3, 4);
+        System.out.println(result);
+
+        printFunc(6, 7);
     }
 
 
@@ -22,6 +28,11 @@ public class lab201 {
         } else {
             return b;
         }
+    }
+
+    public static <T> void printFunc(T a, T b) {
+        System.out.println(a);
+        System.out.println(b);
     }
 
 }
